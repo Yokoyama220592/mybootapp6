@@ -8,10 +8,10 @@
         <version>3.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>jp.te4a.spring.boot.myapp12</groupId>
-    <artifactId>mybootapp12</artifactId>
+    <groupId>jp.te4a.spring.boot.myapp13</groupId>
+    <artifactId>mybootapp13</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mybootapp12</name>
+    <name>mybootapp13</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>
@@ -77,6 +77,33 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>6.5.0</version>
+        </dependency>
+ 
+        <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>6.5.0</version>
+        </dependency>
+ 
+        <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>6.5.0</version>
+        </dependency>
+ 
+        <!-- https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-springsecurity6 -->
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity6</artifactId>
+            <version>3.1.3.RELEASE</version>
         </dependency>
     </dependencies>
  

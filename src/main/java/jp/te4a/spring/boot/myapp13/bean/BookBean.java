@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp12.mybootapp12;
+package jp.te4a.spring.boot.myapp13.bean;
 
 //import org.springframework.data.annotation.Id;
 
